@@ -273,40 +273,7 @@ h1{
 	margin:30px 0;
 }	
 	
-	#hero{
-				background: url(assets/img/earth-space-cosmos-5439.jpg );
-				background-size: cover;
-				background-position: center center;
-				height:calc(100vh - 56px)
-			}
-
-			.overlay{
-				background:rgba(0,0,0,.5);
-				height:100%;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-			
-			.overlay div{
-				max-width:600px;
-				padding:15px;
-			}
-			
-			.overlay h1, .overlay p{
-				color:#fff;
-				margin-bottom:15px;
-			}
-			
-			.overlay .btn{
-				color:#fff;
-				border:1px solid #fff;
-			}
-			
-			.overlay .btn:hover{
-				color:#ddd;
-				border:1px solid #ddd;
-			}
+	
 	
 	.fa:hover {
     opacity: 0.5;
