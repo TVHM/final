@@ -266,7 +266,7 @@ font-style: normal;
 			}	
 }
 
-@media screen and ( max-width:500px ){
+@media screen and ( max-width:375px ){
 	nav{
 		display: none;
 		position:relative;
