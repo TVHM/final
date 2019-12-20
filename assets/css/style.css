@@ -201,7 +201,7 @@ font-weight: 300;
 font-style: normal;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
 	
 	.container, .fullcontainer, .rcontainer, .rfullcontainer{
 		display:block;
@@ -215,6 +215,55 @@ font-style: normal;
 	.c100, .c75, .c66, .c50, .c33, .c25{
 		width:100%;
 	}
+	
+	blockquoute {
+	float:center;
+	width:400px;
+	font-size:100%;
+	font-family: montserrat, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color:aliceblue;
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	border-top: 1px solid #665544;
+	border-bottom: 1px solid #665544;
+	
+}
+#hero{
+				background: url(assets/img/earth-space-cosmos-5439.jpg );
+				background-size: cover;
+				background-position: center center;
+				height:calc(100vh - 65px)
+			}
+
+			.overlay{
+				background:rgba(0,0,0,.5);
+				height:100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.overlay div{
+				max-width:600px;
+				padding:15px;
+			}
+			
+			.overlay h1, .overlay p{
+				color:#fff;
+				margin-bottom:15px;
+			}
+			
+			.overlay .btn{
+				color:#fff;
+				border:1px solid #fff;
+			}
+			
+			.overlay .btn:hover{
+				color:#ddd;
+				border:1px solid #ddd;
+			}	
 }
 
 @media screen and ( max-width:500px ){
