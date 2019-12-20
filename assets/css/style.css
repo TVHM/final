@@ -201,7 +201,7 @@ font-weight: 300;
 font-style: normal;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
 	
 	.container, .fullcontainer, .rcontainer, .rfullcontainer{
 		display:block;
